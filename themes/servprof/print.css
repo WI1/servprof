@@ -1,0 +1,17 @@
+#breadcrumb,
+#footer,
+#header #logo-box,
+#header #navigation,
+#sidebar-right,
+.tabs
+{
+	display:none;
+}
+
+body.one-sidebar #main {
+	width: inherit;
+}
+
+#page {
+	background: none;
+}

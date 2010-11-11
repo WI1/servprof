@@ -1,0 +1,436 @@
+﻿body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	color: #666;
+	font-size:100%;
+}
+
+h1 {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #949494;
+	color: #333333;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-weight: normal;
+	margin-bottom:0px;
+	font-size: 1.3em;
+}
+p{
+	line-height: 150%;
+}
+
+a:link, a:visited{
+	color: #000;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.clear {
+	clear:both;
+}
+
+#page {
+	background-image: url(images/bg_all.jpg);
+	background-repeat: repeat-y;
+	margin: auto;
+	width: 907px;
+	font-size: 0.75em;
+}
+
+#pageInner {
+	margin-left: 29px;
+	margin-right:28px;
+}
+
+#main {
+	margin-right:20px;
+	margin-left:20px;
+}
+/* wenn zwei Sidebars sichtbar sind, Main-Content auf 56% setzen */
+body.two-sidebars #main {
+	width: 390px;
+}
+/* wenn nur ein Sidebar sichtbar ist, Main-Content auf 76% setzen */
+body.one-sidebar #main {
+	width: 600px;
+}
+
+/* Sidebars & Main-Content Bereich nebeneinander anordnen (float) */
+#sidebar-left, #main, #sidebar-right {
+	float: left;
+}
+
+/* Sidebars auf 20% Breite setzen */
+#sidebar-right, #sidebar-left {
+	width: 210px;
+}
+
+#sidebar-right
+ {
+	padding: 0; /* DO NOT CHANGE. Add padding or margin to #sidebar-right-inner. */
+	background-image: url(images/sidebarGradient.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#sidebar-right h2 {
+	color: #666;
+	font-size: 20px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	font-weight: normal;
+	margin-left: 16px;
+	margin-right: 16px;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+}
+#sidebar-right .item-list ul{
+	/*margin-left: 15px;*/
+	margin-right: 6px;
+}
+/*.content .item-list ul{
+	margin-right: 6px;
+}
+*/
+#sidebar-right .item-list ul li{
+	list-style-type: none;
+	background-image: url(images/linkArrowB.png);
+	background-repeat: no-repeat;
+	background-position: left 30%;
+	padding-left: 18px;
+	padding-bottom: 5px;
+}
+#sidebar-right .item-list ul li a:link, #sidebar-right .item-list ul li a:visited{
+	color: #333;
+	text-decoration: none;
+}
+#sidebar-right .item-list ul li a:hover{
+	text-decoration: underline;
+}
+#sidebar-right .content .menu {
+	margin-left: 2.5em;
+}
+#sidebar-right .content .menu a:link, #sidebar-right .content .menu a:visited{
+	color: #333;
+}
+#sidebar-right .content .menu a:hover{
+	color: #999;
+}
+li.leaf {
+	list-style-type: none !important;
+	list-style-image: none !important;
+}
+
+li.expanded {
+	list-style-type: none !important;
+	list-style-image: none !important;
+}
+.more-link{
+	background-image: url(images/linkArrowG.png);
+	background-repeat: no-repeat;
+	background-position: 79% 30%;
+	padding-left: 12px;
+	padding-right: 15px;
+	font-size: 10px;
+}
+.content .feed-icon{
+	margin-left: 20px;
+}
+
+#breadcrumb {
+	margin-top:10px;
+}
+
+#breadcrumb a:link, #breadcrumb a:visited{
+	background-image: url(images/linkArrowBsmall.png);
+	background-repeat: no-repeat;
+	background-position: right 40%;
+	padding-right: 15px;
+	color: #333;
+	text-decoration: none;
+	margin-left: 10px;
+}
+#breadcrumb a:hover{
+	text-decoration: underline;
+}
+.more-link a:link, .more-link a:visited{
+	color: #333;
+	text-decoration: none;
+}
+#content-content .content{
+	margin-left: 10px;
+}
+#content-content .content ul li{
+	list-style-type: none;
+	margin-bottom: 5px;
+	background-image: url(images/linkArrowG.png);
+	background-repeat: no-repeat;
+	background-position: 0 4px;
+	padding-left: 14px;
+}
+
+.more-link a:hover{
+	text-decoration: underline;
+}
+#sidebar-left
+ {
+	padding: 0; /* DO NOT CHANGE. Add padding or margin to #sidebar-right-inner. */
+	background-image: url(images/sidebarGradient.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+/* Hauptnavigation */
+
+#primary ul.links {
+	background-image: url(images/menuBg.jpg);
+	background-repeat: repeat-x;
+	background-color: #0099FF;
+	height: 44px;
+}
+
+#primary ul.links li {
+	display: inline;
+	float: left;
+	line-height: 44px;
+	font-size: 16px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #5eb2ea;
+	padding: 0 !important;
+}
+
+
+#primary ul.links li a, #primary ul.links li a:link, #primary ul.links li a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding-right: 35px;
+	padding-left: 35px;
+}
+
+#primary ul.links li a:hover {
+	background-color: #949494;
+}
+
+#primary ul.links li a.active {
+	background-color: #949494;
+}
+
+.breadcrumb {
+	font-size:0.8em;
+	color:#333;
+
+	margin-top:15px;
+}
+
+.service-label {
+display:none;
+}
+
+
+/* ---------footer--------------*/
+
+#footer {
+	margin-top:30px;
+}
+
+#footerstep {
+	line-height: 30px;
+	text-align: center;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+}
+
+#footerstep a {
+	text-decoration: none;
+	color: #666666;
+	padding-right: 50px;
+	font-size: 11px;
+}
+
+#sponsoren {
+	padding-left: 150px;
+	background-image: url(images/footBg.jpg);
+	background-repeat: repeat-x;
+	background-position:top;
+	height:165px;
+}
+
+#sponsoren a {
+	background: transparent url(images/logo-band.png) left top no-repeat;
+	margin-right: 2px;
+	height: 80px;
+	width:160px;
+	float:left;
+}
+
+#sponsoren #sponsor1 {
+	background-position: 0 -164px;
+}
+
+#sponsoren #sponsor1:hover {
+	background-position: 0 0;
+}
+
+#sponsoren #sponsor2 {
+	background-position: -230px -164px;
+}
+
+#sponsoren #sponsor2:hover {
+	background-position: -230px 0;
+}
+
+#sponsoren #sponsor3 {
+	background-position: -460px -164px;
+}
+
+#sponsoren #sponsor3:hover {
+	background-position: -460px 0;
+}
+
+#sponsoren #sponsor4 {
+	background-position: -710px -164px;
+}
+
+#sponsoren #sponsor4:hover {
+	background-position: -710px 0;
+}
+
+#sponsoren #sponsor5 {
+	background-position: -900px -164px;
+}
+
+#sponsoren #sponsor5:hover {
+	background-position: -900px 0;
+}
+
+#sponsoren #sponsor6 {
+	background-position: -1170px -164px;
+}
+
+#sponsoren #sponsor6:hover {
+	background-position: -1170px 0;
+}
+
+#sponsoren #sponsor7 {
+	background-position: -1415px -164px;
+}
+
+#sponsoren #sponsor7:hover {
+	background-position: -1415px 0;
+}
+
+#sponsoren #sponsor8 {
+	background-position: -1655px -164px;
+}
+
+#sponsoren #sponsor8:hover {
+	background-position: -1655px 0;
+}
+div#content-top {
+	margin-bottom:15px;
+}
+
+.block ul {
+	padding-left: 0;
+}
+
+#sidebar-right .content .menu .menu {
+	margin-left: 0;
+}
+
+#block-service_links-service_links {
+	vertical-align:middle;
+	background-color:#E2EAED;
+	float:right;
+	padding: 3px 5px 3px 5px;
+}
+
+#block-service_links-service_links  a{
+	margin:0px 3px;
+}
+
+
+/*-----------sidebar searchform -----------*/
+#sidebar-right #search-block-form .container-inline{
+	background-color: #949494;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+#sidebar-right #search-block-form input[type=submit] {
+	background-color: #949494;
+	background-image: url(images/zoomin.jpg);
+	background-repeat: no-repeat;
+	border: 0 none;
+	width: 20px;
+	height: 17px;
+	text-indent: -99999px;
+}
+#sidebar-right #search-block-form label{
+	color: #CCCCCC;
+	font-weight: normal;
+	font-size: 10px;
+}
+#sidebar-right #search-block-form input[type=text]{
+	width: 150px;
+}
+
+.taxonomy table {
+	border-bottom: 1px solid #999999;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+.taxonomy table tbody {
+	border:none;
+}
+
+.taxonomy table td {
+	padding: 5px 5px;
+}
+
+.taxonomy .vocabulary {
+	font-weight: bold;
+	vertical-align:top;
+}
+
+.taxonomy .vocabulary-terms {
+	padding-left:10px;
+}
+
+.field-label {
+	margin-top:5px;
+	margin-bottom:3px;
+	font-size:1.1em;
+}
+
+#logo-box {
+	float: right;
+	margin: 10px 10px 0 0;
+}
+
+#logo {
+	float: left;
+}
+
+#navigation, #container {
+	clear: both;
+}
+
+.field-field-logo {
+  float: right;
+  margin-left: 1em;
+}
+
+.gmap-popup {
+	width: 250px;
+}
+
+.node-type-focusgroup tr.even,
+.node-type-focusgroup tr.odd,
+.node-type-project tr.even,
+.node-type-project tr.odd {
+	background-color: transparent;
+}

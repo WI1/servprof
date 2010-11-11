@@ -1,0 +1,15 @@
+; $Id:$
+name = ServProd
+description = The servprod theme
+core = 6.x
+engine = phptemplate
+
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[header] = Header
+regions[footer] = Footer
+regions[content] = Content
+regions[content_top] = content top
+regions[logo_box] = logo box
+stylesheets[all][] = style.css
+stylesheets[print][] = print.css

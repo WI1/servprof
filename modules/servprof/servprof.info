@@ -1,0 +1,5 @@
+; $Id$
+name = Servprof
+description = Servprof.de-specific modifications and extensions.
+core = 6.x
+package = Servprof Meta

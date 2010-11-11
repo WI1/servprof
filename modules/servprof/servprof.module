@@ -1,0 +1,23 @@
+<?php
+/**
+ * Implements hook_views_api().
+ * @return array with Views API version.
+ */
+function servprof_views_api() {
+  return array(
+    'api' => 2,
+    'path' => drupal_get_path('module', 'servprof'),
+    //'path' => drupal_get_path('module', 'nodehierarchy_downloads') . '/includes',
+  );
+}
+
+/**
+ * Implements hook_term_path().
+ * Redirects taxonomy clicks to the research map
+ * @param object $term
+ * @return string
+ *   Link target
+ */
+function servprof_term_path($term) {
+	return 'forschungslandkarte-taxonomie/' . $term->tid;
+}
