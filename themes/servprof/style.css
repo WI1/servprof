@@ -6,13 +6,9 @@
 }
 
 h1 {
-	border-bottom-width: 2px;
-	border-bottom-style: solid;
-	border-bottom-color: #949494;
 	color: #333333;
 	font-family: "Trebuchet MS", Arial, sans-serif;
 	font-weight: normal;
-	margin-bottom:0px;
 	font-size: 1.3em;
 }
 p{
@@ -433,4 +429,39 @@ div#content-top {
 .node-type-project tr.even,
 .node-type-project tr.odd {
 	background-color: transparent;
+}
+
+.field-field-teaser-image {
+	width:150px;
+	margin:0px 8px 8px 0px;
+	float:left;
+}
+
+h1.title {
+	margin-bottom:10px;
+}
+
+.view-content .links {
+	float:none;
+	clear:both;
+	border-top:1px dotted #949494;
+	padding-top:5px;
+}
+
+.view-content .content p {
+	margin-top:0px;	
+}
+
+.view-content .node {
+	padding-bottom:5px;
+	border-bottom:1px solid #949494;
+	margin-bottom:15px;
+}
+
+h1.title>a {
+	text-decoration:underline;
+}
+
+h1.title>a:hover {
+	text-decoration:none;
 }
