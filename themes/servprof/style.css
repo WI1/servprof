@@ -432,7 +432,7 @@ div#content-top {
 }
 
 .field-field-teaser-image {
-	width:150px;
+	/*width:150px;*/
 	margin:0px 8px 8px 0px;
 	float:left;
 }
