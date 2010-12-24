@@ -359,7 +359,7 @@ div#content-top {
 	background-color: #949494;
 	background-image: url(images/zoomin.jpg);
 	background-repeat: no-repeat;
-	border: 0 none;
+	border: none;
 	width: 20px;
 	height: 17px;
 	text-indent: -99999px;
