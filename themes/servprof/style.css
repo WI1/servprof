@@ -441,6 +441,22 @@ h1.title {
 	margin-bottom:10px;
 }
 
+.node h2 {
+	margin-bottom:10px;
+	color: #333333;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-weight: normal;
+	font-size: 1.3em;
+	text-decoration: underline;
+}
+h2 a:hover {
+	background:white;
+	text-decoration:none;
+}
+.meta {
+display: none;
+}
+
 .view-content .links {
 	float:none;
 	clear:both;
